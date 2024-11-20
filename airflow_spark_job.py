@@ -62,7 +62,7 @@ create_cluster = DataprocCreateClusterOperator(
 )
 
 pyspark_job = {
-    'main_python_file_uri': 'gs://landing-zone-gds-noob2/emp_batch_job.py'
+    'main_python_file_uri': 'gs://landing-zone/emp_batch_job.py'
 }
 
 # spark_job_resources_parm = {
